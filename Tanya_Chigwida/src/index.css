@@ -72,9 +72,10 @@ a {
   
 }
 
-.card h1 {
-  padding-top: 30px ;
+.a{
+  transition: transform 0.2s;
 }
+
 
 
 #mySidebar {
@@ -142,11 +143,18 @@ p {
   border-radius: 50%;
 }
 
+/* About me */
+
 #aboutme{
-  padding-top: 70px 0px;
-  margin: 20px;
-  
+  padding: 70px 50px;
 }
+
+address{
+  padding-bottom: 20px;
+}
+
+
+/* Skills */
 
 #Education{
   background-color: #f9f9f9;
@@ -157,6 +165,23 @@ p {
 
 .courses{
   margin-top: 0px;
+}
+
+
+/* Projects */
+#projects{
+  padding: 60px 20px;
+}
+
+#projects h2{
+  padding: 20px;
+}
+
+a:hover{
+  cursor: pointer;
+  color: #8d90e0;
+  animation:forwards 0.5s;
+  
 }
 
 .icons8-github { 

@@ -5,8 +5,11 @@ export default function Landing() {
 
     return (
         
-        <>
-        <div className='main'></div><div className='header'>
+    <>
+        <div className='main'>
+        
+        
+             <div className='card'>
 
             
                 <img src={MyImage} alt="Picture of Tanya" width={200} className='propic' />
@@ -26,7 +29,8 @@ export default function Landing() {
                     <img width="64" height="64" src="https://img.icons8.com/nolan/64/amazon-web-services.png" alt="amazon-web-services" />
                 </div>
             </div>
-            </>
+        </div>
+    </>
           
 
 
